@@ -5,8 +5,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 body{
-    background-image: url(../img/background.jpg);
-    background-size: cover;
+    background-image: url(../img/body-background.jpg);
 }
 section{
     margin-top: 100px;
@@ -32,6 +31,11 @@ section span.author{
 }
 
 @media screen and (min-width: 768px) {
+    body{
+        background-image: url(../img/background.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
     section{
         margin-left: 40%;
     }
